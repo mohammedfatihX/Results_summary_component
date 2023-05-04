@@ -3,18 +3,61 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
-
   <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
-  
   <title>Frontend Mentor | Results summary component</title>
-
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
+  <link rel="stylesheet" href="css/style.css">
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    
 </head>
 <body>
-  
+  <div class="mainCard">
+    <div class="leftCard">
+        <h3 class="resultTitle">
+            Your Result
+        </h3>
+        <div class="valueCircle">
+            <p class="value">
+                76
+            </p>
+            <p class="valueRefrence">
+                of 100
+            </p>
+        </div>
+        <h2 class="info">
+            Great
+        </h2>
+        <p class="comment">
+            You scored higher than 65% of <br>
+            the people who have taken <br>
+            these tests.
+        </p>
+    </div>
+    <div class="rightCard">
+        <h3 class="SummaryTitle">
+            Summary
+        </h3>
+        <ul >
+            <li class="reaction">
+                <div class="reactionName">Reaction</div>
+                <div class="reactionValue Value"><span>80</span> /100</div>
+            </li>
+            <li class="memory ">
+                <div class="memoryName">Memory</div>
+                <div class="memoryValue"><span>80</span> /100</div>
+            </li>
+            <li class="verbal">
+                <div class="verbalName">Verbal</div>
+                <div class="verbalValue"><span>80</span> /100</div>
+            </li>
+            <li class="visual">
+                <div class="">Visual</div>
+                <div class="visualValue"><span>80</span> /100</div>
+            </li>
+        </ul>
+        <button class="continueButton" >
+            Continue
+        </button>
+    </div>
+</div>
 </body>
 </html>
